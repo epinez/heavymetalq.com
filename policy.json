@@ -1,0 +1,15 @@
+{
+  "Id": "Policy1522074684919",
+  "Version": "2019-03-24",
+  "Statement": [
+    {
+      "Sid": "Stmt1522074683215",
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::heavymetalq.com/*",
+      "Principal": "*"
+    }
+  ]
+}
